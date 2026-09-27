@@ -1,0 +1,43 @@
+.section.mission {
+  background-color: #5e8a4d;
+}
+
+.mission-title {
+  color: #fff;
+}
+
+.mission-description {
+  margin: 24px 0 32px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .mission-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 32px;
+  }
+  .mission-title {
+    width: 340px;
+  }
+  .mission-description {
+    width: 340px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mission-wrp {
+    row-gap: 80px;
+  }
+
+  .mission-title {
+    width: 644px;
+    font-size: 48px;
+  }
+  .mission-description {
+    width: 644px;
+  }
+}
